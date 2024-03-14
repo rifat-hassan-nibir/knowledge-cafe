@@ -13,7 +13,6 @@ const Blogs = () => {
 
   return (
     <div className="lg:col-span-2">
-      <h1>this is blogs {blogs.length}</h1>
       {blogs.map((blog) => (
         <Blog blog={blog} key={blog.id}></Blog>
       ))}

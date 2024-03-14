@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="grid lg:grid-cols-3">
+      <div className="grid lg:grid-cols-3 lg:gap-[24px] lg:mt-[32px]">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
