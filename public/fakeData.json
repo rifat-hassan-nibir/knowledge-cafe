@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://r2.easyimg.io/brtlyyk5d/jeshoots-com-puam5hpacri-unsplash.jpg",
+    "post_title": "Exploring the Beauty of Nature: A Photographic Journey",
+    "author_img": "https://r2.easyimg.io/526zvxguy/vicky-hladynets-c8ta0gwpbqg-unsplash.jpg",
+    "author_name": "Emily Johnson",
+    "posted_date": "2024-03-13",
+    "reading_time": "10 minutes",
+    "hashtags": ["photography", "nature", "travel"]
+  },
+  {
+    "id": 2,
+    "cover_img": "https://r2.easyimg.io/brtlyyk5d/glenn-carstens-peters-npxxwgq33zq-unsplash.jpg",
+    "post_title": "The Art of Cooking: Recipes from Around the World",
+    "author_img": "https://r2.easyimg.io/526zvxguy/craig-mckay-jmurdhtm7ng-unsplash.jpg",
+    "author_name": "John Smith",
+    "posted_date": "2024-03-12",
+    "reading_time": "15 minutes",
+    "hashtags": ["cooking", "recipes", "food", "culture"]
+  },
+  {
+    "id": 3,
+    "cover_img": "https://r2.easyimg.io/brtlyyk5d/nik-magpyhro0aa-unsplash.jpg",
+    "post_title": "Mastering Productivity: Tips for a Successful Workday",
+    "author_img": "https://r2.easyimg.io/526zvxguy/jonas-kakaroto-mjrwhvqec0u-unsplash.jpg",
+    "author_name": "Alexandra Lee",
+    "posted_date": "2024-03-11",
+    "reading_time": "8 minutes",
+    "hashtags": ["productivity", "work", "career", "tips"]
+  },
+  {
+    "id": 4,
+    "cover_img": "https://r2.easyimg.io/brtlyyk5d/annie-spratt-owq8w3bymfy-unsplash.jpg",
+    "post_title": "Fitness Journey: Transforming Your Body and Mind",
+    "author_img": "https://r2.easyimg.io/526zvxguy/sergio-de-paula-c_gmwfhbdzk-unsplash.jpg",
+    "author_name": "Michael Davis",
+    "posted_date": "2024-03-10",
+    "reading_time": "12 minutes",
+    "hashtags": ["fitness", "health", "exercise", "mindfulness"]
+  },
+  {
+    "id": 5,
+    "cover_img": "https://r2.easyimg.io/brtlyyk5d/jess-bailey-q10vitrvyum-unsplash_(1).jpg",
+    "post_title": "Exploring the Universe: A Guide to Stargazing",
+    "author_img": "https://r2.easyimg.io/526zvxguy/christopher-campbell-rdeovte7vos-unsplash.jpg",
+    "author_name": "Sophia Rodriguez",
+    "posted_date": "2024-03-09",
+    "reading_time": "20 minutes",
+    "hashtags": ["astronomy", "stargazing", "science", "space"]
+  }
+]
