@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
 import PropTypes from "prop-types";
+import { IoBookmarkOutline } from "react-icons/io5";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handlebookmarks }) => {
   const { post_title, cover_img, author_img, author_name, reading_time, posted_date, hashtags } = blog;
   return (
-    <div>
-      <img src={cover_img} className="rounded-lg mb-[34px]" alt="" />
+    <div className="mb-[80px]">
+      <img src={cover_img} className="rounded-lg mb-[34px] w-full" alt="" />
       <div className="flex justify-between">
         <div className="flex gap-[24px] items-center mb-[24px]">
           <img src={author_img} className="size-[60px] rounded-full" alt="" />
@@ -14,7 +16,10 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         <div>
-          <p className="text-[20px] text-[#11111199] font-medium">{reading_time} read time</p>
+          <span className="text-[20px] text-[#11111199] font-medium ">{reading_time} read time </span>
+          <button onClick={() => handlebookmarks(blog)} className="text-[20px] ml-3">
+            <IoBookmarkOutline />
+          </button>
         </div>
       </div>
       <h1 className="text-[40px] font-bold">{post_title}</h1>
