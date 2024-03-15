@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { useState } from "react";
-import Blog from "../Blog/Blog/";
+import Blog from "../Blog/Blog";
 
-const Blogs = ({ handlebookmarks }) => {
+const Blogs = ({ handlebookmarks, handleReadTime }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const Blogs = ({ handlebookmarks }) => {
   return (
     <div className="lg:col-span-2">
       {blogs.map((blog) => (
-        <Blog blog={blog} key={blog.id} handlebookmarks={handlebookmarks}></Blog>
+        <Blog blog={blog} key={blog.id} handlebookmarks={handlebookmarks} handleReadTime={handleReadTime}></Blog>
       ))}
     </div>
   );
